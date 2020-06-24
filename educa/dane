@@ -1,0 +1,10 @@
+haslo: qO6bJyy*bz@
+
+otrzymaj utworzone instancje klas z danej aplikacji w postaci JSON:
+python manage.py dumpdata courses --indent=2
+
+wrzuc instancje z JSON do pliku:
+python manage.py dumpdata courses --indent=2 --output=courses/fixtures/subjects.json
+
+zaladuj dane z JSON do aplikacji:
+python manage.py loaddata subjects.json
