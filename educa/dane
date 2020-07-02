@@ -8,3 +8,4 @@ python manage.py dumpdata courses --indent=2 --output=courses/fixtures/subjects.
 
 zaladuj dane z JSON do aplikacji:
 python manage.py loaddata subjects.json
+
